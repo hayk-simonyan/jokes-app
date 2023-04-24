@@ -124,7 +124,7 @@ function Table() {
   return (
     <>
       {filteredJokes?.length && (
-        <>
+        <div className={classes.container}>
           <table className={classes.table}>
             <TableHeader
               columns={columns}
@@ -153,13 +153,16 @@ function Table() {
               />
             </>
           )}
-        </>
+        </div>
       )}
     </>
   );
 }
 
 const useStyles = createUseStyles({
+  container: {
+    overflowX: 'scroll',
+  },
   table: {
     borderCollapse: 'collapse',
     width: '100%',
