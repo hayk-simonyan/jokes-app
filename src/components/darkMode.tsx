@@ -26,6 +26,7 @@ function DarkModeToggle({ children }: { children: React.ReactNode }) {
 const useStyles = createUseStyles({
   fullHeightWrapper: {
     height: '100%',
+    overflowY: 'hidden',
   },
   darkMode: {
     height: '100%',

@@ -23,7 +23,7 @@ const FilterGroup: React.FC<Props> = ({
   const classes = useStyles();
 
   return (
-    <div>
+    <div className={classes.container}>
       {items.map((item) => (
         <button
           key={item.id}
@@ -42,6 +42,9 @@ const FilterGroup: React.FC<Props> = ({
 };
 
 const useStyles = createUseStyles({
+  container: {
+    marginTop: '20px',
+  },
   btn: {
     border: 'none',
     color: 'white',
@@ -56,10 +59,10 @@ const useStyles = createUseStyles({
     transition: '.33s',
   },
   btnPrimary: {
-    backgroundColor: '#27c72d',
+    backgroundColor: '#37306B',
   },
   btnSecondary: {
-    backgroundColor: '#186780',
+    backgroundColor: '#D27685',
   },
 });
 
