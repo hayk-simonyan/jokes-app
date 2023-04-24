@@ -162,6 +162,9 @@ function Table() {
 const useStyles = createUseStyles({
   container: {
     overflowX: 'scroll',
+    '@media (max-width: 600px)': {
+      overflowX: 'scroll',
+    },
   },
   table: {
     borderCollapse: 'collapse',

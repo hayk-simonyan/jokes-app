@@ -44,6 +44,7 @@ const FilterGroup: React.FC<Props> = ({
 const useStyles = createUseStyles({
   container: {
     marginTop: '20px',
+    paddingBottom: '20px',
   },
   btn: {
     border: 'none',
