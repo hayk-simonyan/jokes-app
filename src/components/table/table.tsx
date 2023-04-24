@@ -161,7 +161,7 @@ function Table() {
 
 const useStyles = createUseStyles({
   container: {
-    overflowX: 'scroll',
+    overflowX: 'auto',
     '@media (max-width: 600px)': {
       overflowX: 'scroll',
     },
