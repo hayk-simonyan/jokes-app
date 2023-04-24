@@ -65,7 +65,7 @@ export function generateToken() {
   return timestamp + random;
 }
 
-export function validateEmail(email: string) {
+export function validateEmail(email: string | undefined) {
   return String(email)
     .toLowerCase()
     .match(

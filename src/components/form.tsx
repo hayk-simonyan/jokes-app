@@ -20,8 +20,8 @@ const Form = () => {
 
   useEffect(() => {
     const validateForm = () => {
-      const { Author } = data!;
-      validateEmail(Author) ? setIsValid(true) : setIsValid(false);
+      const author = data?.Author;
+      validateEmail(author) ? setIsValid(true) : setIsValid(false);
     };
 
     validateForm();
