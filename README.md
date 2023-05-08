@@ -1,5 +1,3 @@
-# Assignment
-
 ## API
 
 Endpoint URL: https://retoolapi.dev/zu9TVE/jokes
